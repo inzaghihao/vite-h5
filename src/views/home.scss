@@ -1,0 +1,21 @@
+.container{
+  .box{
+    width: 720px;
+    height: 100px;
+    background-color: $main-color;
+    font-size: 24px;
+  }
+  .box1{
+    display: flex;
+    width: 740px;
+    height: 200px;
+    background-color: yellow;
+    >div{
+      flex: 1;
+      background-color: blue;
+      &.right{
+        background-color: aqua;
+      }
+    }
+  }
+}
